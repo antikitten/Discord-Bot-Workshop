@@ -1,0 +1,3 @@
+Rename this file to .env, put your Discord API key in the YOUR_TOKEN_HERE section and delete these instructions
+
+DISCORD_TOKEN = YOUR_TOKEN_HERE

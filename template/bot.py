@@ -21,14 +21,12 @@ async def on_ready():
 
 @bot.event
 async def on_message(message):
-    if message.content.lower() == 'hello':
-        await message.channel.send(f'hello {message.author.mention}')
-    await bot.process_commands(message)
+    ...
 
 
 @bot.command(name='ping')
 async def ping(ctx):
-    await ctx.send('pong')
+    ...
 
 
 @bot.command(name='rps')
